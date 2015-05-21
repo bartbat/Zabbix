@@ -6,12 +6,12 @@
 # This script is intended for use with Zabbix > 2.0
 # 
 # USAGE:
-#   as a script:    C:\WINDOWS\system32\windowspowershell\v1.0\powershell.exe -command  "& C:\Zabbix\zabbix_citrix_xenapp.ps1 <ITEM_TO_QUERY>"
+#   as a script:    C:\WINDOWS\system32\windowspowershell\v1.0\powershell.exe -command  "& C:\Zabbix\xenapp-check.ps1 <ITEM_TO_QUERY>"
 #   as an item:     ctx[<ITEM_TO_QUERY>]
 #   as a query : Logon, Version, Product
 #
 # Add to Zabbix Agent
-#   UserParameter=ctx[*],%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -nologo -command "& C:\Zabbix\zabbix_citrix_xenapp.ps1 $1"
+#   UserParameter=ctx[*],%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -nologo -command "& C:\Zabbix\xenapp-check.ps1 $1"
 #
 
 
