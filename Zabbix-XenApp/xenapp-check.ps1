@@ -1,5 +1,5 @@
 # Script: WMI Citrix-XenApp
-# Author: Bélaïd YOUNSI (belaid[dot]younsi |at| gmail |dot| com)
+# Author: BartBat
 # Description: Query Citrix Xenapp
 # License: GPL2
 #
