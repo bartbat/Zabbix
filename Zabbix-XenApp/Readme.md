@@ -1,0 +1,17 @@
+#Citrix XenApp Check
+
+The script check version, product and logon/logoff on Citrix Xenapp
+
+##Installation
+
+##### Add to configuration in Zabbix Agent
+
+>UserParameter=ctx[*],%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -nologo -command "& C:\Zabbix\xenapp-check.ps1 $1"
+
+##Requirements
+
+This script was tested for Zabbix 2.0.0 or higher.
+
+##Version 
+
+Version 1.0
