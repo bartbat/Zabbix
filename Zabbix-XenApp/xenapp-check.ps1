@@ -12,7 +12,6 @@
 #
 # Add to Zabbix Agent
 #   UserParameter=ctx[*],%SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe -nologo -command "& C:\Zabbix\xenapp-check.ps1 $1"
-#
 # 
 
 $comp = '.'
