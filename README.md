@@ -1,2 +1,2 @@
 # Zabbix
-- Full of zabbix scripts
+- Full of zabbix scripts and solution
