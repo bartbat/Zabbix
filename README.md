@@ -1,2 +1,2 @@
-# Zabbix/
+# Zabbix
 - Full of zabbix scripts
